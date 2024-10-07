@@ -66,4 +66,6 @@ class Area:
         return resultado
 
 if __name__ == '__main__':
-    pass
+    teste = Area('Saúde')
+    teste.consulta_nome_area()
+    print(teste)
